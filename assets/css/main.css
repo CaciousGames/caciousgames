@@ -2939,7 +2939,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #353535;
 		}
 
 			.spotlights > section > .image {
@@ -3951,5 +3951,6 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
 
 
