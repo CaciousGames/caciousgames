@@ -2958,7 +2958,7 @@ input, select, textarea {
 				}
 
 				.spotlights > section > .image:before {
-					background: rgba(36, 41, 67, 0.9);
+					background: #222222;
 					content: '';
 					display: block;
 					height: 100%;
@@ -3799,7 +3799,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: #222222;
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -3951,6 +3951,7 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
 
 
 
