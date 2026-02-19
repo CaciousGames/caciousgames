@@ -3001,7 +3001,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #3a3a3a;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3951,6 +3951,7 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
 
 
 
