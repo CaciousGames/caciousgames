@@ -3952,6 +3952,10 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+.cardrotatehover:hover {
+transform: rotate(10deg);
+transition: all 0.3s ease-in-out;
+}
 
 
 
