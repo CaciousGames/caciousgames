@@ -1787,7 +1787,7 @@ input, select, textarea {
 				content: '';
 				background-color: #ffffff;
 				display: block;
-				height: 5px;
+				height: 2px;
 				margin: 0.325em 0 0.5em 0;
 				width: 100%;
 			}
@@ -3119,7 +3119,7 @@ input, select, textarea {
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
-		height: 3.25em;
+		height: 5em;
 		left: 0;
 		letter-spacing: 0.25em;
 		line-height: 3.25em;
@@ -3314,7 +3314,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.75em;
+				height: 4em;
 				line-height: 2.75em;
 			}
 
@@ -3956,6 +3956,7 @@ input, select, textarea {
 transform: rotate(10deg);
 transition: all 0.3s ease-in-out;
 }
+
 
 
 
