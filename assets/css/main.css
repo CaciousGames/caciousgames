@@ -1016,7 +1016,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-200 > * {
-						padding: 0 0 0 3em;
+						padding: 0 0 0 .7em;
 					}
 
 					.row.gtr-200.gtr-uniform {
@@ -3956,6 +3956,7 @@ input, select, textarea {
 transform: rotate(10deg);
 transition: all 0.3s ease-in-out;
 }
+
 
 
 
