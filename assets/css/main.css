@@ -3960,6 +3960,37 @@ transition: all 0.3s ease-in-out;
 
 
 
+/* Footer Layout Fix */
+#footer .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Add horizontal space on large screens */
+.footer-action {
+    margin-top: 2em; /* Vertical gap for mobile/desktop */
+}
+
+@media screen and (min-width: 736px) {
+    #footer .inner {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-action {
+        margin-top: 0;
+        margin-left: 3em; /* Pushes button away from icons on desktop */
+    }
+}
+
+/* Ensure the button doesn't hug the copyright text below it */
+#footer .copyright {
+    margin-top: 3em;
+    width: 100%;
+    text-align: center;
+}
 
 
 
