@@ -2239,6 +2239,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			padding-bottom: 1em !important;
 		}
 
 		ul.alt {
@@ -3956,6 +3957,7 @@ input, select, textarea {
 transform: rotate(10deg);
 transition: all 0.3s ease-in-out;
 }
+
 
 
 
