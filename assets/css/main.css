@@ -3960,16 +3960,25 @@ transition: all 0.3s ease-in-out;
 
 
 
-/* Footer Layout Fix */
 #footer .inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Add horizontal space on large screens */
 .footer-action {
-    margin-top: 2em; /* Vertical gap for mobile/desktop */
+  margin: 2em 0;
+}
+
+  #footer .icons {
+    margin: 0;
+  }
+
+  #footer .copyright {
+    width: 100%;
+    margin-top: 3em;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 736px) {
@@ -3985,12 +3994,6 @@ transition: all 0.3s ease-in-out;
     }
 }
 
-/* Ensure the button doesn't hug the copyright text below it */
-#footer .copyright {
-    margin-top: 3em;
-    width: 100%;
-    text-align: center;
-}
 
 
 
